@@ -13,7 +13,7 @@ reading() { read -p "$(red "$1")" "$2"; }
 export LC_ALL=C
 USERNAME=$(whoami)
 HOSTNAME=$(hostname)
-export UUID=${UUID:-'347a3453-ae93-46a9-8f94-06c2736142ed'}
+export UUID=${UUID:-'7dfa5dfd-6b14-4bbb-8407-c6eab2f1ec4a'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
